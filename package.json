@@ -4,7 +4,7 @@
   "description": "API de entrega de encomendas aonde vamos ter autenticação e autorização para cliente e vendedor, também iremos utilizar o ORM, prisma para o gerenciamento de tabelas do banco de dados SQLite,  para o backend vamos utilizar node, express e a linguagem de programação será o typescript.",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch --env-file .env src/server.ts"
   },
   "keywords": [
     "api",
@@ -35,6 +35,7 @@
   "devDependencies": {
     "@types/express": "^5.0.1",
     "@types/node": "^20.14.12",
+    "prisma": "^5.19.1",
     "tsx": "^4.16.2",
     "typescript": "^5.5.4"
   }
