@@ -1,0 +1,41 @@
+{
+  "name": "projeto_api_de_entregas_de_produtos",
+  "version": "1.0.0",
+  "description": "API de entrega de encomendas aonde vamos ter autenticação e autorização para cliente e vendedor, também iremos utilizar o ORM, prisma para o gerenciamento de tabelas do banco de dados SQLite,  para o backend vamos utilizar node, express e a linguagem de programação será o typescript.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [
+    "api",
+    "delivery",
+    "entregas",
+    "produtos",
+    "e-commerce",
+    "autenticação",
+    "autorização",
+    "prisma",
+    "orm",
+    "sqlite",
+    "node",
+    "express",
+    "typescript",
+    "backend",
+    "rest-api",
+    "logística",
+    "encomendas"
+  ],
+  "author": "Pablo Henrique Ferreira de França",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^20.14.12",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  }
+}
