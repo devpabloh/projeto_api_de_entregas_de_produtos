@@ -41,6 +41,6 @@ após isso demos o comando para instalar o prisma : npm i prisma -D e o comando 
 
 após isso editamos o arquivo .env e colocamos as informações do banco de dados e criamos uma cópia do arquivo.env para o arquivo .env-example como um exemplo de como deve ser preenchido o arquivo.env
 
-
+Criar as migrations, que são as tabelas e os seus relacionamentos no banco de dados : npx prisma migrate dev
 
 ### 
